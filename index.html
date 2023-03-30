@@ -368,13 +368,18 @@
                 style="background: rgba(55, 55, 63, 0.7)"
               >
                 <h1 class="text-center text-white mb-4">GET AN APPOINTMENT</h1>
-                <form>
+                <form action="https://formspree.io/f/moqzkqjd" method="post">
                   <div class="form-group">
+                    <input
+                      name="subject"
+                      value="Thank you for requesting an appointment"
+                    />
                     <input
                       type="text"
                       class="form-control border-0 p-4"
                       placeholder="Your Name"
                       required="required"
+                      name="Name"
                     />
                   </div>
                   <div class="form-group">
@@ -383,6 +388,7 @@
                       class="form-control border-0 p-4"
                       placeholder="Your Email"
                       required="required"
+                      name="Email"
                     />
                   </div>
                   <div class="form-group">
@@ -391,6 +397,7 @@
                       class="form-control border-0 p-4"
                       placeholder="Your Number"
                       required="required"
+                      name="Phone Number"
                     />
                   </div>
                   <div class="form-row">
@@ -403,6 +410,7 @@
                             placeholder="Date"
                             data-target="#date"
                             data-toggle="datetimepicker"
+                            name="Date"
                           />
                         </div>
                       </div>
@@ -416,6 +424,7 @@
                             placeholder="Time"
                             data-target="#time"
                             data-toggle="datetimepicker"
+                            name="Time"
                           />
                         </div>
                       </div>
@@ -423,16 +432,21 @@
                   </div>
                   <div class="form-group">
                     <select
+                      id="services"
                       class="custom-select border-0 px-4"
                       style="height: 47px"
+                      name="service"
                     >
                       <option selected>Select A Service</option>
-                      <option value="1">Divorce Issue</option>
-                      <option value="2">Tax Related Issue</option>
-                      <option value="3">Consultation/Legal Advise</option>
-                      <option value="3">Property Related Issue</option>
-                      <option value="3">Criminal Defence Service</option>
-                      <option value="3">Consultation</option>
+                      <option value="divorce issue">Divorce Issue</option>
+                      <option value="tax related issue">
+                        Tax Related Issue
+                      </option>
+                      <option value="consultation">Consultation</option>
+                      <option value="property related issue">
+                        Property Related Issue
+                      </option>
+                      <option value="criminal defence">Criminal Defence</option>
                     </select>
                   </div>
                   <div>

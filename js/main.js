@@ -41,6 +41,8 @@
     format: "LT",
   });
 
+  // const text = serviceOptions.options[serviceOptions.selectedIndex].text;
+
   // Practice Areas carousel
   $(".practice-areas-carousel").owlCarousel({
     autoplay: true,
