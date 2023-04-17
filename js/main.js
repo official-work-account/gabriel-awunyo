@@ -46,6 +46,7 @@
   // Practice Areas carousel
   $(".practice-areas-carousel").owlCarousel({
     autoplay: true,
+    autoplayHoverPause: true,
     smartSpeed: 1500,
     margin: 30,
     dots: false,
