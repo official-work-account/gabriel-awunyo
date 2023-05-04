@@ -93,10 +93,10 @@
         items: 2,
       },
       768: {
-        items: 3,
+        items: 5,
       },
       992: {
-        items: 3,
+        items: 5,
       },
     },
   });
