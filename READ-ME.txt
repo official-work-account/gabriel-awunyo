@@ -1,1 +1,1 @@
-  =>  Template Extraction     : law-firm1
+extract=law-firm1
